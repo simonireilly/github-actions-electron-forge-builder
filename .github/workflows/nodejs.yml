@@ -23,7 +23,7 @@ jobs:
         yarn install
         yarn make
 
-    - uses: actions/upload-artifact@master
-      with:
-        name: ${{ matrix.node_version }}-OS-${{ matrix.os }}
-        path: out/make
+    # - uses: actions/upload-artifact@master
+    #   with:
+    #     name: ${{ matrix.node_version }}-OS-${{ matrix.os }}
+    #     path: out/make
